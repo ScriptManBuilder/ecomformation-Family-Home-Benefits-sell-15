@@ -127,6 +127,10 @@ export const StatCard = styled.div<{ $background: string }>`
   position: relative;
   overflow: hidden;
   backdrop-filter: blur(10px);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
 
   &::before {
     content: '';
@@ -199,6 +203,8 @@ export const StatTitle = styled.h3`
   font-weight: 600;
   line-height: 1.4;
   letter-spacing: -0.01em;
+  text-align: left;
+  width: 100%;
 `;
 
 export const StatDescription = styled.p`
@@ -207,15 +213,21 @@ export const StatDescription = styled.p`
   margin-top: 0.5rem;
   opacity: 0.7;
   line-height: 1.6;
+  text-align: left;
+  width: 100%;
 `;
 
 export const StatValue = styled.div`
   font-size: 3.5rem;
   font-weight: 700;
-  margin-top: 1rem;
+  margin-top: auto;
+  margin-bottom: 0;
+  padding-top: 1rem;
   letter-spacing: -0.02em;
   position: relative;
-  display: inline-block;
+  display: block;
+  width: 100%;
+  text-align: left;
   
   &::after {
     content: '';

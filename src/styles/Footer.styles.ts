@@ -252,7 +252,7 @@ export const ContactItem = styled.div`
 
 export const ContactLabel = styled.div`
   color: #8b96a5;
-  font-size: 0.7rem;
+  font-size: 0.725rem;
   text-transform: uppercase;
   letter-spacing: 0.08em;
   margin-bottom: 0.35rem;
@@ -261,14 +261,16 @@ export const ContactLabel = styled.div`
 
 export const ContactValue = styled.a`
   color: #ffffff;
-  font-size: 0.875rem;
+  font-size: 0.725rem;
   text-decoration: none;
   display: flex;
   align-items: center;
   gap: 0.5rem;
   font-weight: 500;
   transition: all 0.2s ease;
-  word-break: break-all;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
 
   svg {
     width: 15px;
