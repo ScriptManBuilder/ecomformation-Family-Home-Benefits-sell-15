@@ -1,5 +1,46 @@
 import styled from 'styled-components';
 
+export const PaymentIcons = styled.div`
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+  align-items: center;
+
+  @media (max-width: 425px) {
+    gap: 0.75rem;
+    margin-top: 1.25rem;
+  }
+`;
+
+export const PaymentIcon = styled.div`
+  width: 50px;
+  height: 50px;
+  background: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s ease;
+
+  &:hover {
+    transform: translateY(-2px);
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  @media (max-width: 425px) {
+    width: 45px;
+    height: 45px;
+    padding: 8px;
+  }
+`;
+
 export const FooterContainer = styled.footer`
   background: linear-gradient(180deg, #0F172A 0%, #020617 100%);
   color: #e3e8ef;

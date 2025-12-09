@@ -71,17 +71,16 @@ const TermsPage: React.FC = () => {
           </LegalSection>
 
           <LegalSection>
-            <LegalSectionTitle>Membership Fees and Billing</LegalSectionTitle>
+            <LegalSectionTitle>Payment Terms</LegalSectionTitle>
             <LegalParagraph>
-              Our family & home benefits membership is provided on a subscription basis, as detailed in your membership agreement. 
-              Billing terms include:
+              All products and services offered on this website are sold as a one-time purchase.
             </LegalParagraph>
             <LegalList>
-              <LegalListItem>Membership fees are charged according to your selected membership plan</LegalListItem>
+              <LegalListItem>Payments are charged once at the time of purchase</LegalListItem>
+              <LegalListItem>No recurring or automatic billing will occur</LegalListItem>
+              <LegalListItem>You will not be enrolled in a subscription</LegalListItem>
               <LegalListItem>Payments are processed through secure third-party payment processors</LegalListItem>
-              <LegalListItem>Membership fees are billed in advance on a recurring basis</LegalListItem>
-              <LegalListItem>Service requests and claims are processed according to your coverage plan</LegalListItem>
-              <LegalListItem>Membership fees are non-refundable except as required by law or stated in our Refund Policy</LegalListItem>
+              <LegalListItem>All fees are non-refundable except as required by law or stated in our Refund Policy</LegalListItem>
             </LegalList>
           </LegalSection>
 
