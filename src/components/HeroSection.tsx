@@ -31,7 +31,7 @@ const HeroSection: React.FC = () => {
       <HeroContent>
         <Tagline>Elite Family & Household Solutions</Tagline>
         <HeroTitle>
-          Protect Your Family's Future.
+          Protect Your Family's Future.<br />
           <Highlight>Unmatched Benefits. Complete Confidence.</Highlight>
         </HeroTitle>
         <HeroDescription>

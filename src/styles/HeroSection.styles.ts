@@ -64,7 +64,7 @@ export const HeroContainer = styled.section`
 `;
 
 export const HeroContent = styled.div`
-  max-width: 1000px;
+  max-width: 1200px;
   margin: 0 auto;
   position: relative;
   z-index: 1;
@@ -97,7 +97,7 @@ export const Tagline = styled.p`
 `;
 
 export const HeroTitle = styled.h1`
-  font-size: 3.75rem;
+  font-size: 3.5rem;
   line-height: 1.15;
   margin-bottom: 1.75rem;
   color: #ffffff;
