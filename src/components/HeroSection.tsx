@@ -16,7 +16,7 @@ const HeroSection: React.FC = () => {
 
   const handleLaunchApp = () => {
     // Temporarily disabled - demo site under construction
-    // window.open(`https://${appSubdomain}`, '_blank');
+    window.open(`https://${appSubdomain}`, '_blank');
   };
 
   const handleScheduleCall = () => {
